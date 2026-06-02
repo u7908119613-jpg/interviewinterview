@@ -201,8 +201,9 @@ Notion 是可选输出，不是依赖。agent 应在运行时检测是否有 Not
 
 ```text
 <output_dir>/intel.md
-<output_dir>/pi_perspective.md
-<output_dir>/candidate_twin.md       # twin mode only
+<output_dir>/pi_perspective.md         # single interviewer
+<output_dir>/committee_perspective.md   # 2+ interviewers / unknown panel
+<output_dir>/candidate_twin.md          # twin mode only
 <output_dir>/interview_prep.md
 <output_dir>/gap_report.md
 ```

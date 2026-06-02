@@ -251,7 +251,8 @@ Default:
 
 ```text
 <output_dir>/intel.md
-<output_dir>/pi_perspective.md
+<output_dir>/pi_perspective.md       # single interviewer
+<output_dir>/committee_perspective.md # 2+ interviewers / unknown panel (instead of pi_perspective.md)
 <output_dir>/interview_prep.md
 <output_dir>/gap_report.md
 ```

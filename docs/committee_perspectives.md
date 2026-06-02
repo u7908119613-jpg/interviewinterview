@@ -21,6 +21,8 @@ The lead interviewer drives the main interview arc. Panel members add probes fro
 
 When a committee member is unknown, do not invent identity. Infer 2 likely disciplinary perspectives from the project field and methods.
 
+**Do not infer a perspective already covered by a known panel member.** If a known member already holds a discipline (e.g. a known statistics reviewer), skip that row and pick the next-most-relevant row from the inference table, so inferred lenses add coverage rather than duplicate a real one.
+
 Mark every inferred perspective:
 
 ```text

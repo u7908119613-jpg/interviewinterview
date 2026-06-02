@@ -66,7 +66,7 @@ Required columns:
 | `D` | D1-D5 |
 | `gap` | concrete weakness |
 | `repair` | next edit or practice action |
-| `source_needed` | capability network / CV / intel / user confirmation |
+| `source_needed` | capability network (twin mode only) / CV / intel / user confirmation |
 
 ---
 

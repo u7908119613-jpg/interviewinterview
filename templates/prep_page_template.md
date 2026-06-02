@@ -23,7 +23,7 @@
 
 ## 3. Question Practice
 
-> Grouped by category (E/W/P/S). Within each category, list rows in priority order (see [question_weighting.md](../docs/question_weighting.md)) — questions raised by 2+ source-backed interviewers come first. Note each row's `asked_by` (lead / panel / inferred) in the outline cell when it is not the lead.
+> Grouped by category (E/W/P/S). Within each category, list rows in priority order (see [question_weighting.md](../docs/question_weighting.md)) — questions raised by 2+ source-backed interviewers come first. Prefix high-priority (cross-interviewer) questions with **★** so the priority signal isn't lost under category headers. Note each row's `asked_by` (lead / panel / inferred) in the ID or outline cell when it is not the lead.
 
 ### Experience
 
