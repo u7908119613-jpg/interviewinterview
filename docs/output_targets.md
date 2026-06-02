@@ -72,5 +72,6 @@ If the connector requires a parent page or database and none is configured, ask 
 | Notion auth expired | Markdown fallback and tell user |
 | Parent page missing | Ask once; if unavailable, markdown fallback |
 | API validation error | Write markdown fallback and include a short error note |
+| Partial write (e.g. prep page created, Gap Report append fails mid-run) | Write the remaining sections as markdown and report which sections landed in Notion vs markdown |
 
 The workflow should finish even when Notion does not.

@@ -61,7 +61,7 @@ Required columns:
 |---|---|
 | `question_id` | E/W/P/S ID or `FREE-XX` |
 | `topic` | short topic label |
-| `asked_by` | PI / panel / unknown |
+| `asked_by` | lead / panel / inferred |
 | `status` | green / yellow / red |
 | `D` | D1-D5 |
 | `gap` | concrete weakness |

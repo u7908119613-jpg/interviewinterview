@@ -68,7 +68,6 @@ If `mode=twin` and no capability network exists, stop and ask the user to either
 - `unknown_panel_count=<number>`
 - `output_dir=<path>`
 - `confirm=true` for non-interactive continuation after Phase 0
-- `rounds=<number>` for twin mode, default `1`
 
 ---
 
@@ -184,6 +183,11 @@ Then detect output target using `$OUTPUTS`:
 
 Never require Notion.
 
+**Mode notes:**
+
+- companion mode has no twin: build the candidate evidence map from `candidate_cv` / intel.md D-section, or omit it if neither exists. In feedback, `source_needed` may be `CV` or `user confirmation` — not `capability network`.
+- single-interviewer runs (`pi=` only): the sole PI is the lead; the "lead" rules below apply to it.
+
 ### Phase 4A: companion Mode
 
 Loop over questions one at a time, using the Phase 3 priority order.
@@ -228,6 +232,8 @@ For each answer:
 - describe the gap concretely
 - name the source needed to repair it
 - add FREE questions if the PI asked outside the bank
+
+Score from the perspective of the interviewer who asked the question (their methods/standards), not a generic bar. If multiple interviewers would judge the same answer, use the strictest score and note the split (e.g. `lead: D4 / methods reviewer: D2`).
 
 Write:
 

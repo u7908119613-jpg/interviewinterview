@@ -30,8 +30,8 @@ ls "$HOME/.phd-interview-flow/"
 
 应看到 `docs/` 和 `templates/` 两个目录，分别含：
 
-- `docs/`: `workflow.md`、`input_phase0.md`、`perspective_methodology.md`、`d1_d5_rubric.md`、`output_targets.md`
-- `templates/`: `intel_template.md`、`question_bank_template.md`、`pi_perspective_template.md`、`candidate_twin_template.md`、`prep_page_template.md`、`gap_report_template.md`
+- `docs/`（7）: `workflow.md`、`input_phase0.md`、`perspective_methodology.md`、`d1_d5_rubric.md`、`output_targets.md`、`committee_perspectives.md`、`question_weighting.md`
+- `templates/`（7）: `intel_template.md`、`question_bank_template.md`、`pi_perspective_template.md`、`candidate_twin_template.md`、`prep_page_template.md`、`gap_report_template.md`、`committee_perspective_template.md`
 
 ---
 

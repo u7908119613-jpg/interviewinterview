@@ -23,6 +23,8 @@
 
 ## 3. Question Practice
 
+> Grouped by category (E/W/P/S). Within each category, list rows in priority order (see [question_weighting.md](../docs/question_weighting.md)) — questions raised by 2+ source-backed interviewers come first. Note each row's `asked_by` (lead / panel / inferred) in the outline cell when it is not the lead.
+
 ### Experience
 
 | ID | Question | 30-second outline | Evidence |

@@ -16,9 +16,11 @@ For each generated question, compare against [templates/question_bank_template.m
 
 Track which interviewer raised each question in an `asked_by` field.
 
-- If the same question or mapped `question_id` is raised by **2 or more interviewers** (lead + panel, across the committee — including inferred committee perspectives), increase its priority by **+1**.
-- Priority is capped at the top tier.
-- Rationale: a concern shared across the committee is both more likely to come up and more costly to fumble, so it deserves earlier rehearsal.
+- If the same question or mapped `question_id` is raised by **2 or more interviewers**, increase its priority by **+1**.
+- **At least one must be source-backed** (a real, known interviewer). Two inferred perspectives `(inferred, no source)` agreeing does NOT grant +1 on its own — they are derived from the same project text and carry no real-person signal. Inferred-only overlap may be noted, not promoted.
+- **FREE-XX dedup**: two interviewers may raise semantically-equivalent *novel* questions that would get different `FREE-XX` IDs and never match. Before assigning IDs, dedupe FREE questions semantically across interviewers; merge equivalents into one `FREE-XX` with both in `asked_by`, then apply +1. Committee-shared novel concerns are high-value — don't let them fall through.
+- **Single-interviewer runs** (`pi=` only): nothing reaches 2 interviewers, so weighting is a no-op; ordering falls back to category order with the sole PI's questions first (Step 3).
+- Priority is capped at the top tier. Rationale: a concern shared across real committee members is more likely to come up and more costly to fumble.
 
 ## Step 3: Ordering
 

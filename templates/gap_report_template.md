@@ -19,7 +19,7 @@
 
 | question_id | topic | asked_by | status | D | gap | repair | source_needed |
 |---|---|---|---|---|---|---|---|
-| E1 |  | PI / panel / unknown | green / yellow / red | D3 |  |  | capability network / CV / intel / user confirmation |
+| E1 |  | lead / panel / inferred | green / yellow / red | D3 |  |  | capability network / CV / intel / user confirmation |
 
 ---
 
