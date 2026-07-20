@@ -1,6 +1,6 @@
 ---
 name: interview-mock
-description: Run PhD interview preparation in companion or twin mode. Shared core: committee perspective -> interviewer-generated questions -> answer source -> D1-D5 evaluation. Notion output is optional and auto-detected; markdown is the fallback.
+description: "Run PhD interview preparation in companion or twin mode. Shared core: committee perspective -> interviewer-generated questions -> answer source -> D1-D5 evaluation. Notion output is optional and auto-detected; markdown is the fallback."
 ---
 
 # Interview Mock Skill
